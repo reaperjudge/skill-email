@@ -20,7 +20,7 @@ class HelloWorldSkill(MycroftSkill):
         
     def handle_greetings(self, message):
         # Sending a command to mycroft, speak Greetings Dialog
-        self.speak_dialog("greetings")
+        self.send_email("I am here","it works. I am from in five minites. Don't open the next email.")
         
     def stop(self):
         pass
