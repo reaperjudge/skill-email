@@ -8,7 +8,7 @@ __author__ = 'reaperjudge'
 # Creating HelloWorldSKill extending MycroftSkill
 class HelloWorldSkill(MycroftSkill):
     def __init__(self):
-        super(HelloWorldSkill, self).__init__(name="HelloWorldSkill")
+        super(HelloWorldSkill, self).__init__(name="EmailSkill")
 
     def initialize(self):
         # Creating GreetingsIntent requiring Greetings vocab
