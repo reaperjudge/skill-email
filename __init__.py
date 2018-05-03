@@ -22,7 +22,7 @@ class HelloWorldSkill(MycroftSkill):
         dialog = self.dialog_renderer.render("greetings", None)
         # Sending a command to mycroft, speak Greetings Dialog
         self.send_email(dialog)
-        self.speak_dialog("greetings")
+        self.speak_dialog(dialog)
         
     def stop(self):
         pass
