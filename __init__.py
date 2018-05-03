@@ -21,9 +21,8 @@ class HelloWorldSkill(MycroftSkill):
     def handle_greetings(self, message):
         dialog = self.dialog_renderer.render("greetings", None)
         # Sending a command to mycroft, speak Greetings Dialog
-        self.send_email(dialog)
+        self.send_email(dialog, None)
         self.speak(dialog)
-        
     def stop(self):
         pass
 
