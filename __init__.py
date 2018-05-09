@@ -25,7 +25,9 @@ class HelloWorldSkill(MycroftSkill):
             <!DOCTYPE html>
             <html>
                 <body>
+                i
                 <img width="400" height="400" data="putinmeme02.jpg"></img>
+                b
                 </body>
             </html>)
         self.speak(dialog)
