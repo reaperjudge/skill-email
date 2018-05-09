@@ -22,14 +22,14 @@ class HelloWorldSkill(MycroftSkill):
         dialog = self.dialog_renderer.render("greetings", None)
         # Sending a command to mycroft, speak Greetings Dialog
         self.send_email("Message From Your Picroft", dialog +
-            <!DOCTYPE html>
+            "<!DOCTYPE html>
             <html>
                 <body>
                 i
                 <img width="400" height="400" data="putinmeme02.jpg"></img>
                 b
                 </body>
-            </html>)
+            </html>")
         self.speak(dialog)
     def stop(self):
         pass
